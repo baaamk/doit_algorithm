@@ -21,7 +21,7 @@ public class P2018_006 {
                 start_index++;
             } else {
                 end_index ++;
-                sum = sum + end_index;
+                sum = sum + end_index; // 주의
             }
         }
         System.out.println(count);

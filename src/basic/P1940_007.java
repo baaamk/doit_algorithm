@@ -19,8 +19,8 @@ public class P1940_007 {
         Arrays.sort(A);
 
         int count = 0;
-        int i = 0;
-        int j = N - 1;
+        int i = 0; //A[0] -> Min
+        int j = N - 1; //A[N-1]
 
         while (i < j) {
             if (A[i] + A[j] < M) {
