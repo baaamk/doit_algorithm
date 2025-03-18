@@ -1,4 +1,4 @@
-package basic;
+package _03;
 
 import java.io.BufferedReader;
 import java.io.IOException;

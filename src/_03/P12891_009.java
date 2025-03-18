@@ -1,4 +1,4 @@
-package basic;
+package _03;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -77,9 +77,9 @@ public class P12891_009 {
                 break;
             case 'T':
                 myArr[3]++;
-                if (myArr[4] == checkArr[4]){
+                if (myArr[3] == checkArr[3]){
                     checkSecret--;
-                    myArr[4]--;
+                    myArr[3]--;
 
                 }
                 break;
